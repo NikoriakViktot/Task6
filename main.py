@@ -38,6 +38,6 @@ print(total, 'грн.' )
 
 #Task 3
 i = [i for i in range(1,11)]
-j = [i*2 for i in range(1,11)]
+j = [i**2 for i in range(1,11)]
 print(list(zip(i, j)))
 
